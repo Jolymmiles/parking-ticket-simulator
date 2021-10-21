@@ -16,7 +16,7 @@ public class Main {
 
             ParkingMeter meter = new ParkingMeter(boughtMinutes);
             ParkedCar car = new ParkedCar(carMark, carModel, carColor, carNumberplate, carMinutesOnParking);
-            PoliceOfficer officer = new PoliceOfficer("Валентин", "123543");
+            PoliceOfficer officer = new PoliceOfficer("Валентин", "010 474 МКВ");
             ParkingTicket ticket = officer.createFine(car, meter, officer);
             System.out.println(ticket);
         }

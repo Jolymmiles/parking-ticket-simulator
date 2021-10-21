@@ -2,9 +2,6 @@ public class ParkingTicket {
     private ParkedCar car;
     private PoliceOfficer officer;
     private int expiryTime;
-    private int FINE = 25;
-
-
 
     public ParkingTicket(ParkedCar car,  PoliceOfficer officer,  int expiryTime) {
         this.car =  car;
