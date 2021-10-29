@@ -19,4 +19,20 @@ public class PoliceOfficer {
                 "\nИмя: " + officerName+
                 "\nЖетон: " + officerToken;
     }
+
+    public String getOfficerName() {
+        return officerName;
+    }
+
+    public void setOfficerName(String officerName) {
+        this.officerName = officerName;
+    }
+
+    public String getOfficerToken() {
+        return officerToken;
+    }
+
+    public void setOfficerToken(String officerToken) {
+        this.officerToken = officerToken;
+    }
 }

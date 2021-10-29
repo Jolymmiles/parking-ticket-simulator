@@ -26,4 +26,24 @@ public class ParkedCar {
                 "\nНомер: " + carNumberplate+
                 "\nВремя на парковке: " + carMinutesOnParking;
     }
+
+    public String getCarColor() {
+        return carColor;
+    }
+
+    public void setCarColor(String carColor) {
+        this.carColor = carColor;
+    }
+
+    public String getCarNumberplate() {
+        return carNumberplate;
+    }
+
+    public void setCarNumberplate(String carNumberplate) {
+        this.carNumberplate = carNumberplate;
+    }
+
+    public void setCarMinutesOnParking(int carMinutesOnParking) {
+        this.carMinutesOnParking = carMinutesOnParking;
+    }
 }

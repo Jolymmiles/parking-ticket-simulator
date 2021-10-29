@@ -8,4 +8,8 @@ public class ParkingMeter {
     public int getBoughtMinutes() {
         return this.boughtMinutes;
     }
+
+    public void setBoughtMinutes(int boughtMinutes) {
+        this.boughtMinutes = boughtMinutes;
+    }
 }
